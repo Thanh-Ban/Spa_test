@@ -1,0 +1,45 @@
+/* PC */
+@media (min-width: 1024px)
+{
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+/* Tablet & Mobile */
+@media (max-width: 1023px)
+{
+    .slider {
+        position: static;
+    }
+    .login-box {
+        position: relative;
+        top: -150px;
+        left: 0;
+        width: 90%;
+        margin: auto;
+    }
+    .container span {
+        position: relative;
+        left: 0;
+        top: -10px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px)
+{
+    .container {
+        padding: 20px;
+        
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px)
+{
+    .container span {
+        display: none; /* Ẩn span nếu cần */
+    }
+}

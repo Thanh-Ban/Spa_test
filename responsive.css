@@ -1,0 +1,229 @@
+/* PC */
+@media (min-width: 1024px)
+{
+
+}
+/* Table & Mobile*/
+@media(max-width: 1023px)
+{
+    .places-buy-bnt
+    {
+        padding: 16px 16px;
+    }
+    #nav .subnav a
+    {
+        padding: 5px 12px;
+    }
+    .contact-form .form-control
+    {
+        padding: 15px;
+    }
+
+    .contact-info
+    {
+        line-height: 2;
+    }
+
+    .contact-info a
+    {
+        color: blue;
+        opacity: 0.7;
+    }
+    .contact-info a:hover
+    {
+        opacity: 1;
+    }
+    #nav li a {
+    line-height: 31px;
+    padding: 20px 19px;
+    white-space: nowrap;
+    }
+    .hotline-btn {
+        padding: 2px 2px;
+    }
+    #logo img {
+    /* padding: 5px 166px;  */
+    margin: -16px -100px
+    }
+    .menber-img {
+        max-width: 241px;
+    }
+    #content .content-section {
+        padding-left: 16px;
+        padding-right: 8px;
+    }
+    .contact-image img {
+        width: 352px;
+        margin-right: -781px;
+    }
+    .slider-image {
+        top: 49px;
+        left: 88px;
+        width: 77%;
+        height: 78%;
+    }
+    .places-img {
+        margin-left: 4px;
+    }
+    .places-heading {
+    font-size: 12px;
+    margin-right: 51px;
+    }
+    #footer {
+        padding: 17px 68px;
+    }
+    .map-container {
+        margin-right: 156px
+    }
+
+}
+.contact-image img
+{
+    
+    margin-right: -761px;
+    width: 357px;
+}
+/* Table */
+
+@media (min-width: 740px) and (max-width: 1023)
+{
+    .contact-info
+    {
+        line-height: 2;
+    }
+    
+}
+
+
+/* Mobile */
+
+@media (max-width: 739px)
+{
+    .s-full-width,
+    .s-clo-full
+    {
+        width: 100% !important;
+    }
+    .s-mt-8
+    {
+        margin-top: 8px !important;
+    }
+
+    #header
+    {
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn
+    {
+        display: block;
+    }
+
+    #header .seach
+    {
+        display: none;
+    }
+
+    #nav 
+    {
+        display: block;
+    }
+
+    #nav li a
+    {
+        padding: 1px 58px;
+    }
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child
+    {
+        display: inline-block;
+    }
+
+    #nav .subnav
+    {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a
+    {
+        color: #fff;
+        padding: 5px 40px;
+    }
+
+    #content .menber-img
+    {
+        width: 60%;
+    }
+
+    .contact-form
+    {
+        margin-top: 16px;
+    }
+    .slider-image {
+        position: absolute;
+        top: 120px;
+        left: 58px;
+        width: 70%;
+        height: 54%;
+        object-fit: cover;
+        transition: opacity 1s ease-in-out;
+        opacity: 0;
+        border-radius: 55px;
+        border-radius: 14px 14px;
+    }
+    .controls label {
+        font-size: 15px;
+        padding: 7px;
+        margin-top: 93px;
+    }
+    .section-heading {
+        font-size: 22px;
+    }
+    #name {
+        font-size: 11px;
+        width: 62%;
+        padding: 9px;
+        border-bottom: 1px solid #065f46;
+
+
+    }
+    .form-group label {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .contact-form input[type="text"], .contact-form input[type="tel"], .contact-form input[type="email"]
+    {
+        font-size: 11px;
+        border-bottom: 1px solid #065f46;
+
+    }
+    
+#message 
+{
+    font-size: 11px;
+        border-bottom: 1px solid #065f46;
+}
+
+.submit-btn {
+    font-size: 15px;
+    width: 118px;
+    padding: 10px;
+}
+.places-img {
+    margin-left: 11px;
+}
+.map-container {
+    margin-right: 44px;
+}
+.footer-logo, .footer-contact, .footer-policy, .footer-map
+{
+    padding: 40px;
+}
+.row {
+    margin-left: -14px;
+    margin-right: -14px;
+}
+}
